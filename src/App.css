@@ -1,0 +1,53 @@
+/* css file for header and navbar panel */
+
+.header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: cadetblue;
+  vertical-align: bottom;  
+}
+
+li{
+  margin: 1rem 3rem;
+  
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffcc00;
+  cursor: pointer;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 35px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list li {
+    display: block;
+    text-align: center;
+  }
+}
