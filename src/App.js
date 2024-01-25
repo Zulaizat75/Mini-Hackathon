@@ -6,12 +6,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Aboutus from './components/pages/Aboutus_Anudiip';
 import Contacts from './components/pages/Contacts_Shashi';
 import Menu from './components/pages/Menu_Ariff';
-import Footer from './components/Footer';
+import Footer from './components/Footer_Zul';
 
 
 function App() {
   return (
     <div className="App">
+      {/* Routing Navigation */}
       <Router>
         <Navbar />
         <Routes>

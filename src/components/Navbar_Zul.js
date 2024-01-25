@@ -26,6 +26,7 @@ function Navbar() {
 
   return (
     <div>
+      {/* Navbar Section */}
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>

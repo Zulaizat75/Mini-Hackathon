@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
+      {/* Newsletter Subscription */}
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the caffeine newsletter to receive the best deals
@@ -25,6 +26,8 @@ function Footer() {
           </form>
         </div>
       </section>
+
+      {/* Footer Links */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -52,6 +55,8 @@ function Footer() {
           </div>
         </div>
       </div>
+
+      {/* Social Media */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>

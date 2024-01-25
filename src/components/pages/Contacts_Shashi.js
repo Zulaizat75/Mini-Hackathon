@@ -24,9 +24,11 @@ function Contacts() {
     let { name, value } = e.target;
     setState({ ...state, [name]: value });
   };
+
   return (
     <section className="contact-section">
       <div className="contact-container">
+        {/* Contact Hero */}
         <div
           className="contacts"
           style={{
@@ -35,6 +37,8 @@ function Contacts() {
         >
           <h1 className="contacts">COME CHAT WITH US</h1>
         </div>
+
+        {/* Contact Form */}
         <div className="row justify-content-center">
           <div className="col-md-10 mt-3 mb-3">
             <div className="wrapper">
@@ -111,6 +115,8 @@ function Contacts() {
                     </form>
                   </div>
                 </div>
+
+                {/* Contact Info */}
                 <div className="col-md-6 d-flex align-items-stretch">
                   <div className="info-wrap w-100 p-lg-5 p-4">
                     <h3>Contact Us</h3>

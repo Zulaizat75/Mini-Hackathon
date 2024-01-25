@@ -5,6 +5,7 @@ import "./Aboutus.css";
 function Aboutus() {
   return (
     <section className="about-section">
+      {/* Aboutus Hero */}
       <div className="about-container">
         <div
           className="aboutus"
@@ -14,6 +15,8 @@ function Aboutus() {
         >
           <h1 className="aboutus">ABOUT US</h1>
         </div>
+
+        {/* Company Overview */}
         <div className="row">
           <div className="row justify-content-center">
             <div className="col-md-10 mt-3 mb-3">
@@ -51,9 +54,12 @@ function Aboutus() {
             </div>
           </div>
 
+          {/* Team */}
           <div className="col-md-12 text-center">
             <h2 className="section-title">Meet Our Coffee Enthusiasts</h2>
           </div>
+
+          {/* Team 1 */}
           <div className="col-sm-6 col-md-4">
             <div className="team-item">
               <img
@@ -97,6 +103,7 @@ function Aboutus() {
             </div>
           </div>
 
+          {/* Team 2 */}
           <div className="col-sm-6 col-md-4">
             <div className="team-item">
               <img
@@ -139,6 +146,7 @@ function Aboutus() {
             </div>
           </div>
 
+          {/* Team 3 */}
           <div className="col-sm-6 col-md-4">
             <div className="team-item">
               <img
@@ -153,8 +161,7 @@ function Aboutus() {
               <p>
                 Meet shashi, a true virtuoso in the world of coffee mixing. His
                 talent transcends the ordinary, transforming the simple act of
-                brewing coffee into an art form. With an intuitive understanding
-                of flavor profiles and an unwavering commitment to perfection..
+                brewing into an art form. With unwavering commitment to perfection.
               </p>
 
               <ul className="team-icon">
@@ -183,6 +190,7 @@ function Aboutus() {
           </div>
         </div>
 
+        {/* Team 4 */}
         <div className="row">
           <div className="col-sm-6 col-md-4 mx-auto">
             <div className="team-item">
@@ -197,7 +205,7 @@ function Aboutus() {
               </div>
               <p>
                 Zulaizat has mastered the delicate balance of coffee mixing that
-                makes each cup a symphony of taste.
+                makes each cup a symphony of taste. His expertise lies in ingredient mixing.
               </p>
 
               <ul className="team-icon">
@@ -225,6 +233,7 @@ function Aboutus() {
             </div>
           </div>
 
+          {/* Team 5 */}
           <div className="col-sm-6 col-md-4 mx-auto">
             <div className="team-item">
               <img src="/image/male3.jpg" className="team-img" alt="Amir"></img>
