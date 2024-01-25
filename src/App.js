@@ -1,22 +1,24 @@
 import React from 'react'
+import './App.css'
+import Navbar from './components/Navbar_Zul'
+import Home from './components/pages/Home_Amir'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Home_Amir'
-import Navbar from './Navbar_Zul'
-import Aboutus from './Aboutus_Anudiip'
-import Menu from './Menu_Ariff'
-import Contacts from './Contacts_Shashi'
-import Footer from './Footer_Zul'
+import Aboutus from './components/pages/Aboutus_Anudiip';
+import Contacts from './components/pages/Contacts_Shashi';
+import Menu from './components/pages/Menu_Ariff';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Router>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<Aboutus />} />
+          <Route path='/contacts' element={<Contacts />} />
           <Route path='/menu' element={<Menu />} />
-          <Route path='/abt' element={<Aboutus />} />
-          <Route path='/ctcs' element={<Contacts />} />
         </Routes>
         <Footer />
       </Router>
